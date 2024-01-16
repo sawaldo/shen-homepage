@@ -78,11 +78,12 @@ const Home = () => (
                             </Heading>
                             <Paragraph>
                                    My full name is Qinshuo Shen (Chinese: 沈覃硕). 
-                                   Due to the difficulty of pronouncing my name, I can simply go by Shen. 
+                                   Due to the difficulty of pronouncing my name, I can simply go by Shen.
+                                   You can also call me Sheni, like most of my friends do. 
                                    Based in the Netherlands, I'm a PhD candidate in the <Link href="https://www.utwente.nl/en/">University of Twente</Link>, 
                                    working on the topic of <Link href="https://en.aspari.nl/">Asphalt Paving Research and Innovation (ASPARi)</Link>.
                                    In my research, I'm trying to apply the latest digital technologies, such as Machine Learning, meta-modelling, and physical modelling 
-                                   to the field of asphalt construction, to improve the construction process quality.
+                                   to the field of asphalt construction to improve the pavement quality.
                                    When not on the job, I enjoy football, MAG (Manga, Anime, and Games), reading books, and of course, drinking beers with my friends.
                                    I'm a lifelong supporter of FC Bayern Munich.
                             </Paragraph>
