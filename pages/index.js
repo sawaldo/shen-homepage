@@ -1,6 +1,7 @@
 import NextLink from 'next/link'
 import {
   Link,
+  Text,
   Container,
   Heading,
   Box,
@@ -77,11 +78,11 @@ const Home = () => (
                                   Who am I
                             </Heading>
                             <Paragraph>
-                                   My full name is Qinshuo Shen (Chinese: 沈覃硕). 
-                                   Due to the difficulty of pronouncing my name, I can simply go by Shen.
-                                   You can also call me Sheni, like most of my friends do. 
+                                   My full name is <Text as='u'>Qinshuo Shen</Text> (Chinese: <Text as='u'>沈覃硕</Text>). 
+                                   Due to the difficulty of pronouncing my name, I can simply go by  <Text as='u'>Shen</Text>.
+                                   You can also call me  <Text as='u'>Sheni</Text>, like most of my friends do. 
                             </Paragraph>
-                            <Heading as='h3' variant='section-title'>
+                            <Heading as='h3' variant='section-title' >
                                    What I do
                             </Heading>
                             <Paragraph>
@@ -108,9 +109,9 @@ const Home = () => (
                                    When not on the job, I enjoy football, MAG (Manga, Anime, and Games), reading books, and of course, drinking beers with my friends.
                                    I'm a lifelong supporter of FC Bayern Munich.
                             </Paragraph>
-                            <Heading as='h4' size='md' textAlign="center" fontStyle='italic'>
+                            <Heading as='h4' size='md' textAlign="center" fontStyle='italic' my={4} >
                                           "Mia san mia!"
-                                   </Heading>
+                            </Heading>
 
                      </Section>
 
