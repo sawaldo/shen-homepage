@@ -59,7 +59,7 @@ const Thought = () => (
                             />
                             </SimpleGrid>
                      </Section> */}
-                     <ThoughtImage src="/images/thoughts/youtube-how-to-build-portfolio.jpg" alt="MetaModel" />
+                     <ThoughtImage src="/images/thoughts/youtube-how-to-build-portfolio.jpg" alt="snapshot" />
                      <Heading as="h4" fontSize={14} mb={4} align='center'>
                      Click <Text as='u'><Link href="https://www.youtube.com/watch?v=bSMZgXzC9AA">here</Link></Text> to watch the tutorial video 
                      </Heading>
@@ -100,11 +100,11 @@ const Thought = () => (
                      I will finish this post with some amazing pictures of me, taken by my friend when I was doing my job as a cameraman.
                      during Denis's PhD defense today. Sayonara さよなら!
                      </P>
-                     <ThoughtImage src="/images/thoughts/91d660d0-5d00-4995-8bab-ca85e05a7aea.jpg" alt="MetaModel" />
+                     <ThoughtImage src="/images/thoughts/91d660d0-5d00-4995-8bab-ca85e05a7aea.jpg" alt="shen_1" />
                      <Heading as="h4" fontSize={14} mb={4} align='center'>
                      Almost a National Geographic photographer
                      </Heading>
-                     <ThoughtImage src="/images/thoughts/c7665d76-e0f7-4465-82a9-bd308fd8c392.jpg" alt="MetaModel" />
+                     <ThoughtImage src="/images/thoughts/c7665d76-e0f7-4465-82a9-bd308fd8c392.jpg" alt="shen_2" />
                      <Heading as="h4" fontSize={14} mb={4} align='center'>
                      I think I closed the wrong eye, that's why I couldn't see anything
                      </Heading>
