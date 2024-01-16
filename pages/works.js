@@ -21,7 +21,7 @@ const Works = () => (
               <Box my={5}>
               You know, sometimes I do work. Therefore, I built this page, 
               to constantly remind myself, that I am hired because they expect 
-              me to do some work, not because I am awesome, fun, and perhaps good-looking. 
+              me to do some work, not because I am awesome, funny, and perhaps good-looking. 
               </Box>
               
 
