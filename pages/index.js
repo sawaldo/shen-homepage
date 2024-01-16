@@ -16,7 +16,7 @@ import Layout from '../components/layouts/article';
 import { IoLogoLinkedin, IoLogoXbox, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons';
 import * as React from 'react';
-import Timeline from '../components/Timeline';
+import Timeline from '../components/Timeline/timeline';
 import Image from 'next/image';
 
 
