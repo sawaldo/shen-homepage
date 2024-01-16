@@ -102,7 +102,7 @@ const Home = () => (
                             </Box>
                      </Section>
 
-                     <Section className="experience" delay={0.2}>
+                     <Section className="experience" delay={0.1}>
                             <Heading as='h3' variant='section-title'>
                                  Experience
                             </Heading>
@@ -112,7 +112,7 @@ const Home = () => (
 
                      </Section>
 
-                     <Section delay={0.3}>
+                     <Section delay={0.1}>
                      <Heading as="h3" variant="section-title">
                      Elsewhere
                      </Heading>
