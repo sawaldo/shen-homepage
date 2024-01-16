@@ -74,22 +74,22 @@ const Home = () => (
 
                      <Section delay={0.1}>  
                             <Heading as='h3' variant='section-title'>
-                                 Who am I
+                                  Who am I
                             </Heading>
                             <Paragraph>
                                    My full name is Qinshuo Shen (Chinese: 沈覃硕). 
                                    Due to the difficulty of pronouncing my name, I can simply go by Shen.
                                    You can also call me Sheni, like most of my friends do. 
+                            </Paragraph>
+                            <Heading as='h3' variant='section-title'>
+                                   What I do
+                            </Heading>
+                            <Paragraph>
                                    Based in the Netherlands, I'm a PhD candidate in the <Link href="https://www.utwente.nl/en/">University of Twente</Link>, 
                                    working on the topic of <Link href="https://en.aspari.nl/">Asphalt Paving Research and Innovation (ASPARi)</Link>.
                                    In my research, I'm trying to apply the latest digital technologies, such as Machine Learning, meta-modelling, and physical modelling 
                                    to the field of asphalt construction to improve the pavement quality.
-                                   When not on the job, I enjoy football, MAG (Manga, Anime, and Games), reading books, and of course, drinking beers with my friends.
-                                   I'm a lifelong supporter of FC Bayern Munich.
                             </Paragraph>
-                            <Heading as='h4' size='md' textAlign="center" fontStyle='italic'>
-                                          "Mia san mia!"
-                                   </Heading>
                             <Box 
                                    align='center'
                                    my={4}
@@ -101,6 +101,17 @@ const Home = () => (
                                    </NextLink>
 
                             </Box>
+                            <Heading as='h3' variant='section-title'>
+                                   What I ♥
+                            </Heading>       
+                            <Paragraph>
+                                   When not on the job, I enjoy football, MAG (Manga, Anime, and Games), reading books, and of course, drinking beers with my friends.
+                                   I'm a lifelong supporter of FC Bayern Munich.
+                            </Paragraph>
+                            <Heading as='h4' size='md' textAlign="center" fontStyle='italic'>
+                                          "Mia san mia!"
+                                   </Heading>
+
                      </Section>
 
                      <Section className="experience" delay={0.1}>
