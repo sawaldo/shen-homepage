@@ -7,12 +7,10 @@ Divider }
 from "@chakra-ui/react";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
+import Layout from "../components/layouts/article";
+
 import thumbMetaModel from "../public/images/works/meta_model.jpg";
 import thumbPDeng from "../public/images/works/PDeng.jpg";
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-
-
-import Layout from "../components/layouts/article";
 
 const Works = () => (
        <Layout title="Works">
@@ -20,6 +18,13 @@ const Works = () => (
               <Heading as="h3" fontSize={25} mb={4}>
                      Works
               </Heading>
+              <Box my={5}>
+              You know, sometimes I do work. Therefore, I built this page, 
+              to constantly remind myself, that I am hired because they expect 
+              me to do some work, not because I am awesome, fun, and perhaps good-looking. 
+              </Box>
+              
+
               <SimpleGrid columns={[1, 1, 2]} gap={6}>
                      <Section>
                             <WorkGridItem 
