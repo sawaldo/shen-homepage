@@ -27,6 +27,7 @@
     "@mui/lab": "^5.0.0-alpha.160",
     "@mui/material": "^5.15.4",
     "@mui/styled-engine-sc": "^6.0.0-alpha.12",
+    "@vercel/analytics": "^1.1.1",
     "autoprefixer": "^10.4.16",
     "flowbite-react": "^0.7.2",
     "framer-motion": "^10.18.0",
