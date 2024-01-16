@@ -2,7 +2,7 @@ const steps = [
        {
          title: "PhD candidate",
          description:
-           "Jan 2023 - Now University of Twente",
+           "Jan 2023 - Now, University of Twente",
          content: [
            {
              title: "Developing a Warm Mix Asphalt (WMA) construction planning tool",
@@ -19,7 +19,7 @@ const steps = [
        {
          title: "EngD in Cilvil Engineering",
          description:
-           "Sep 2020 - Dec 2022 Univerisity of Twente",
+           "Sep 2020 - Dec 2022, Univerisity of Twente",
          content: [
            {
              title: "Coupling asphalt process quality into product quality",
@@ -41,7 +41,7 @@ const steps = [
        {
          title: "MSc in Construction Management and Engineering",
          description:
-           "Sep 2018 - Aug 2020 Univerisity of Twente",
+           "Sep 2018 - Aug 2020, Univerisity of Twente",
          content: [
            {
              title: "Thesis: Metamodel-based generative design of wind turbine foundations",
@@ -57,7 +57,7 @@ const steps = [
        {
         title: "BEng in Civil Engineering",
         description:
-          "Sep 2014 - Aug 2018 Ocean Univerisity of China",
+          "Sep 2014 - Aug 2018, Ocean Univerisity of China",
         content: [
           {
             title: "Structural Engineering Track",
