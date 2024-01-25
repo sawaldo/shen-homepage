@@ -5,6 +5,7 @@ import Section from '../../components/section'
 import { WorkGridItem } from '../../components/grid-item'
 
 import thumbHomepage from '../../public/images/thoughts/homepage_dev.png'
+import thumbBestPaper from '../../public/images/thoughts/bestPaper.jpg'
 
 const Thoughts = () => (
   <Layout title="A collection of thoughts">
@@ -20,6 +21,18 @@ const Thoughts = () => (
 
       <Section>
         <SimpleGrid columns={[1, 1, 1]} gap={6}>
+
+        <WorkGridItem
+            category="thoughts"
+            id="bestPaper"
+            title="
+             Simply the best paper I read this year"
+            thumbnail={thumbBestPaper}
+          >
+            
+          </WorkGridItem>
+          
+                   
           <WorkGridItem
             category="thoughts"
             id="homePageDev"
@@ -29,7 +42,8 @@ const Thoughts = () => (
           >
             
           </WorkGridItem>
-          
+
+
         </SimpleGrid>
       </Section>
     </Container>
