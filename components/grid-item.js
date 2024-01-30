@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
@@ -12,6 +12,8 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
         className="grid-item-thumbnail"
         placeholder="blur"
         loading="lazy"
+        width="100%"
+        height="100%"
       />
       <LinkOverlay href={href} target="_blank">
         <Text mt={2}>{title}</Text>
@@ -28,12 +30,13 @@ export const WorkGridItem = ({
   title,
   thumbnail
 }) => (
-  <Box w="100%" textAlign="center">
+  <Box w="100%" textAlign="center"  >
     <LinkBox
       as={NextLink}
       href={`/${category}/${id}`}
       scroll={false}
       cursor="pointer"
+
     >
       <Image
         src={thumbnail}
@@ -42,7 +45,7 @@ export const WorkGridItem = ({
         placeholder="blur"
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
-        <Text mt={2} fontSize={20}>
+        <Text mt={2} fontSize={16} as='b'>
           {title}
         </Text>
       </LinkOverlay>
@@ -56,6 +59,8 @@ export const GridItemStyle = () => (
     styles={`
       .grid-item-thumbnail {
         border-radius: 12px;
+
+        
       }
     `}
   />

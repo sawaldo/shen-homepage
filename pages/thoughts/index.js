@@ -6,6 +6,8 @@ import { WorkGridItem } from '../../components/grid-item'
 
 import thumbHomepage from '../../public/images/thoughts/homepage_dev.png'
 import thumbBestPaper from '../../public/images/thoughts/bestPaper.jpg'
+import thumbJanuary from '../../public/images/thoughts/january/IMG_0748 2.png'
+
 
 const Thoughts = () => (
   <Layout title="A collection of thoughts">
@@ -24,13 +26,14 @@ const Thoughts = () => (
 
         <WorkGridItem
             category="thoughts"
-            id="bestPaper"
+            id="january"
             title="
-             Simply the best paper I read this year"
-            thumbnail={thumbBestPaper}
+             And here goes January"
+            thumbnail={thumbJanuary}
           >
             
           </WorkGridItem>
+
           
                    
           <WorkGridItem
