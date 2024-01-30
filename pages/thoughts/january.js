@@ -68,7 +68,7 @@ const Thought = () => (
                      <P>
                      Some other friends were just graduated. 
                      </P>
-                     <ThoughtImage src="/images/thoughts/january/6BA6CE65-FDF0-41C8-A4FA-2D1D14052645.JPG" alt="shen_1" />
+                     <ThoughtImage src="/images/thoughts/january/6BA6CE65-FDF0-41C8-A4FA-2D1D14052645.JPG" alt="GoodBye" />
                      <Heading as="h4" fontSize={14} mb={4} align='center'>
                      Goodbye friend
                      </Heading>
