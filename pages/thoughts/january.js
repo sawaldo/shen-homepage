@@ -61,14 +61,14 @@ const Thought = () => (
                      Also said goodbye to some friends. One guy from Italy spent his entire visiting period
                      in teaching me how to play scopa, and left me with a deck of those special cards.
                      </P>
-                     <ThoughtImage src="/images/thoughts/january/B5976CC9-FDF5-47AE-A6DE-B9C16E18A5E1.jpg" alt="Scopa" />
+                     <ThoughtImage src="/images/thoughts/january/B5976CC9-FDF5-47AE-A6DE-B9C16E18A5E1.JPG" alt="Scopa" />
                      <Heading as="h4" fontSize={14} mb={4} align='center'>
                      Yet I'm still confused about the rules
                      </Heading>
                      <P>
                      Some other friends were just graduated. 
                      </P>
-                     <ThoughtImage src="/images/thoughts/january/6BA6CE65-FDF0-41C8-A4FA-2D1D14052645.JPG" alt="GoodBye" />
+                     <ThoughtImage src="/images/thoughts/january/6BA6CE65-FDF0-41C8-A4FA-2D1D14052645.jpg" alt="GoodBye" />
                      <Heading as="h4" fontSize={14} mb={4} align='center'>
                      Goodbye friend
                      </Heading>
