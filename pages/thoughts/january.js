@@ -48,7 +48,7 @@ const Thought = () => (
                      I finally got my luchador mask from Mexico, as well as my westler name, which is <Text as='i'>Sombra del Tigre</Text>,
                      meaining <Text as='i'>Shadow of the Tiger</Text>, or <Text as='i'>虎影</Text> in Chinese.
                      </P>
-                     <ThoughtImage src="/images/thoughts/january/8D54E66B-3039-4298-AAD0-E324393E1A25.jpg" alt="Sombra_del_Tigre" />
+                     <ThoughtImage src="/images/thoughts/january/8D54E66B-3039-4298-AAD0-E324393E1A25.JPG" alt="Sombra_del_Tigre" />
                      <Heading as="h4" fontSize={14} mb={4} align='center'>
                      Yes, I met a fan today 
                      </Heading>
