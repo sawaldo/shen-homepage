@@ -80,9 +80,7 @@ const Thought = () => (
                      <P>
                      They went first, and I helped them collect the poker cards that fell out of their pockets because they were running too fast. I always ran in the tailwind they left, but somehow I didn’t feel that the wind resistance would be much reduced. It’s just that they hit every high wall that I might have to hit, and fell down every trench that I might have to fall into, and then told me: “There is nothing wrong with this path, so just keep moving forward. But you've used up your one chance to get help...... Goodbye, friend.". 
                      </P>
-                     <P>
-                     "......Goodbye, friend.”.
-                     </P>
+                  
                      <ThoughtImage src="/images/thoughts/january/520B9B42-E4E6-401F-8945-524B2DB17C6A.JPG" alt="HugItOut" />
                      <Heading as="h4" fontSize={14} mb={4} align='center'>
                      When you need to deal with your inner demon
